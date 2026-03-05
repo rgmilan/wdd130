@@ -1,0 +1,118 @@
+/* temple.css */
+
+/* Base */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+    color: #111;
+}
+
+/* Header + Footer bars */
+header,
+footer {
+    background: #474747;
+    /* dark gray like the screenshot */
+    color: #fff;
+    text-align: center;
+    padding: 22px 16px;
+}
+
+header p,
+footer p {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+/* Main layout */
+main {
+    max-width: 820px;
+    /* matches the centered content width */
+    margin: 0 auto;
+    padding: 26px 18px 40px;
+    text-align: center;
+}
+
+h1 {
+    margin: 18px 0 18px;
+    font-size: 3.3rem;
+    font-weight: 800;
+}
+
+/* Image */
+picture img {
+    display: block;
+    width: min(720px, 100%);
+    height: auto;
+    margin: 0 auto 34px;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
+    background: #fff;
+}
+
+/* Section “cards” */
+section {
+    text-align: left;
+    background: #cfcfcf;
+    border: 1px solid #b7b7b7;
+    padding: 26px 32px 28px;
+    margin: 26px auto;
+}
+
+/* Section titles with divider line */
+section h2 {
+    margin: 0 0 16px;
+    font-size: 2.2rem;
+    font-weight: 800;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #9b9b9b;
+}
+
+/* Text */
+section p {
+    margin: 0 0 14px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+section a {
+    color: #1a4fff;
+    /* link blue like the screenshot */
+}
+
+/* List */
+section ul {
+    margin: 0;
+    padding-left: 28px;
+}
+
+section li {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin: 6px 0;
+}
+
+/* Make header/footer text a bit smaller on narrow screens */
+@media (max-width: 520px) {
+
+    header p,
+    footer p {
+        font-size: 1.35rem;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    section {
+        padding: 20px 18px 22px;
+    }
+
+    section h2 {
+        font-size: 1.7rem;
+    }
+}
