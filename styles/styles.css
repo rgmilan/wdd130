@@ -1,0 +1,44 @@
+/* Content width limit */
+main {
+    max-width: 800px;
+}
+
+/* Add style elements */
+aside {
+    width: 300px;
+    margin: 1rem;
+    border: 1px solid #000;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Image style inside aside */
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+/* Image style */
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Profile image inside main */
+main img {
+    width: 150px;
+    height: auto;
+}
+
+/* Paragraph padding */
+p {
+    padding: 0;
+}
+
+/* Footer style */
+footer {
+    margin-top: 2rem;
+    border-top: 1px solid #000;
+    text-align: center;
+}
