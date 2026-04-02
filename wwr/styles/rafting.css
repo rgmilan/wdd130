@@ -40,7 +40,7 @@ article {
     padding: 8px;
 }
 
-/* HEADER (Grid) */
+/* HEADER */
 header {
     display: grid;
     grid-template-columns: 120px 1fr;
@@ -54,7 +54,6 @@ header img {
     height: auto;
 }
 
-/* NAV (Flex) */
 header nav {
     display: flex;
     justify-content: space-evenly;
@@ -102,7 +101,6 @@ header nav a:hover {
     padding: 16px;
 }
 
-/* ✅ ONLY HERO TEXT JUSTIFIED */
 .hero article p {
     text-align: justify;
     line-height: 1.6;
@@ -128,7 +126,7 @@ section h2 {
     text-align: center;
 }
 
-/* HISTORY (NO JUSTIFY) */
+/* HISTORY */
 .history-content {
     display: grid;
     grid-template-columns: 1fr 200px 1fr;
@@ -174,35 +172,6 @@ section h2 {
 .adventure-gallery figcaption {
     margin-top: 6px;
     font-size: 0.9rem;
-}
-
-/* FOOTER */
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--primary-color);
-    color: white;
-    padding: 16px;
-}
-
-footer p {
-    margin: 0;
-    padding: 0;
-}
-
-.socialmedia {
-    display: flex;
-    gap: 10px;
-}
-
-.socialmedia a {
-    text-decoration: none;
-}
-
-.socialmedia img {
-    width: 40px;
-    height: 40px;
 }
 
 /* CONTACT PAGE */
@@ -335,7 +304,31 @@ footer p {
     font-size: 0.95rem;
 }
 
-/* SMALL IMPROVEMENT FOR ACTIVE NAV LOOK */
-header nav a[href="contact.html"] {
-    text-decoration: underline;
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 16px;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 10px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia img {
+    width: 40px;
+    height: 40px;
 }
