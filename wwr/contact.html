@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="Contact RG Rapids for rafting trip questions, reservations, and adventure information.">
+    <meta name="author" content="Argy Milan">
+    <title>Contact Us | RG Rapids</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="RG Rapids logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <section class="contact-info">
+            <h1>Contact RG Rapids</h1>
+            <p>199 4th Street, Sun Valley Subdivision, Calamba</p>
+            <p>Cebu City, Cebu, Philippines</p>
+            <p>+63 917 123 4567</p>
+            <p>info@rgrapids.com</p>
+        </section>
+
+        <section class="contact-layout">
+            <div class="map-box">
+                <iframe
+                  src="https://www.google.com/maps?q=199%204th%20Street%20Sun%20Valley%20Subdivision%20Calamba%20Cebu%20City%20Cebu%20Philippines&output=embed"
+                  title="Map showing RG Rapids location" loading="lazy" allowfullscreen>
+                </iframe>
+            </div>
+
+            <form class="contact-form" action="#" method="post">
+                <div class="form-item">
+                    <label for="fullname">Name</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+
+                <div class="form-item">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <fieldset>
+                    <legend>Message Purpose</legend>
+
+                    <div class="radio-group">
+                        <input type="radio" id="general" name="purpose" value="general inquiry"
+                          checked>
+                        <label for="general">General Inquiry</label>
+                    </div>
+
+                    <div class="radio-group">
+                        <input type="radio" id="reservation" name="purpose"
+                          value="reservation question">
+                        <label for="reservation">Reservation Question</label>
+                    </div>
+
+                    <div class="radio-group">
+                        <input type="radio" id="suggestion" name="purpose"
+                          value="website suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
+                </fieldset>
+
+                <div class="form-item">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <div class="checkbox-item">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                </div>
+
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </section>
+
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employee-gallery">
+                <figure>
+                    <img src="images/employee1.jpg"
+                      alt="Portrait of Christian Carlo David, River Guide">
+                    <figcaption>Christian Carlo David | River Guide</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee2.jpg"
+                      alt="Portrait of Judee Mae Febra, Trip Coordinator">
+                    <figcaption>Judee Mae Febra | Trip Coordinator</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee3.jpg" alt="Portrait of Ian Lim, Safety Instructor">
+                    <figcaption>Ian Lim | Safety Instructor</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 RG Rapids | Argy Milan</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.png" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>

@@ -204,3 +204,138 @@ footer p {
     width: 40px;
     height: 40px;
 }
+
+/* CONTACT PAGE */
+.contact-page h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: var(--primary-color);
+}
+
+.contact-info {
+    text-align: center;
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.contact-info p {
+    margin: 6px 0;
+    padding: 0;
+}
+
+.contact-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.map-box iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 350px;
+    border: 0;
+    border-radius: 8px;
+}
+
+.contact-form {
+    display: grid;
+    gap: 15px;
+}
+
+.form-item {
+    display: grid;
+    gap: 6px;
+}
+
+.contact-form label,
+.contact-form legend {
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-family: var(--body-font);
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+
+.contact-form fieldset {
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 8px 0;
+}
+
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.contact-form button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #445045;
+}
+
+.employees {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.employees h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.employee-gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.employee-gallery figure {
+    text-align: center;
+    flex: 1;
+}
+
+.employee-gallery img {
+    width: 100%;
+    max-width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.employee-gallery figcaption {
+    margin-top: 8px;
+    font-size: 0.95rem;
+}
+
+/* SMALL IMPROVEMENT FOR ACTIVE NAV LOOK */
+header nav a[href="contact.html"] {
+    text-decoration: underline;
+}
