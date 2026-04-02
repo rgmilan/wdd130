@@ -115,7 +115,7 @@ header nav a:hover {
     border-radius: 5px;
 }
 
-/* SECTIONS */
+/* GENERAL SECTIONS */
 section {
     background-color: white;
     margin: 20px 0;
@@ -145,7 +145,7 @@ section h2 {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* ADVENTURE SECTION */
+/* ADVENTURE */
 .adventures h2 {
     margin-bottom: 20px;
 }
@@ -171,7 +171,7 @@ section h2 {
 
 .adventure-gallery figcaption {
     margin-top: 6px;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
 }
 
 /* CONTACT PAGE */
@@ -200,6 +200,7 @@ section h2 {
     background-color: white;
     margin: 20px 0;
     padding: 20px;
+    align-items: start;
 }
 
 .map-box iframe {
@@ -269,6 +270,7 @@ section h2 {
     background-color: #445045;
 }
 
+/* EMPLOYEES */
 .employees {
     background-color: white;
     margin: 20px 0;
@@ -282,25 +284,30 @@ section h2 {
 
 .employee-gallery {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .employee-gallery figure {
+    flex: 1 1 30%;
+    max-width: 30%;
     text-align: center;
-    flex: 1;
+    margin: 0;
 }
 
 .employee-gallery img {
     width: 100%;
-    max-width: 180px;
-    height: 180px;
+    max-width: 220px;
+    height: 220px;
     object-fit: cover;
     border-radius: 8px;
+    display: block;
+    margin: 0 auto;
 }
 
 .employee-gallery figcaption {
-    margin-top: 8px;
+    margin-top: 10px;
     font-size: 0.95rem;
 }
 
